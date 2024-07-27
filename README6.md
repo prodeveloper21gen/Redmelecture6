@@ -34,29 +34,6 @@ To create an object in programming, you need a class. A class is like a blueprin
 
 **Example:**
 
-Consider a simple `Car` class in Python:
-
-```python
-class Car:
-    def __init__(self, make, model, color, year):
-        self.make = make
-        self.model = model
-        self.color = color
-        self.year = year
-
-    def start(self):
-        print(f"The {self.make} {self.model} is starting.")
-
-    def stop(self):
-        print(f"The {self.make} {self.model} is stopping.")
-
-    def accelerate(self):
-        print(f"The {self.make} {self.model} is accelerating.")
-
-    def brake(self):
-        print(f"The {self.make} {self.model} is braking.")
-```
-
 **How to Create an Object:**
 
 ![image](https://github.com/user-attachments/assets/be8df9c3-3471-4cf5-8e93-a7065f545746)
@@ -90,16 +67,7 @@ In the `Car` class example:
 - **`accelerate(self):`** Prints a message indicating that the car is accelerating.
 - **`brake(self):`** Prints a message indicating that the car is braking.
 
-**Usage Example:**
-
-```python
-my_car.start()  # Output: The Toyota Corolla is starting.
-my_car.accelerate()  # Output: The Toyota Corolla is accelerating.
-```
-
 **Image:**
-
-![Uploading image.png…]()
 
 *The image illustrates how methods are associated with objects.*
 
